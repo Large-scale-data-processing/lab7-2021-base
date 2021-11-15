@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "lab7-2021-base"
+version = "0.1.0"
+description = ""
+authors = ["Roman Bartusiak <roman@bartusiak.ml>"]
+
+[tool.poetry.dependencies]
+python = "3.8.12"
+apache-flink = "^1.14.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
